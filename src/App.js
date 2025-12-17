@@ -55,7 +55,7 @@ function App() {
           type="text"
           value={preference}
           onChange={(e) => setPreference(e.target.value)}
-          placeholder="e.g., indian Superhero movies "
+          placeholder="e.g., Indian superhero movies"
           style={styles.input}
           onKeyPress={(e) => e.key === "Enter" && getRecommendations()}
         />
